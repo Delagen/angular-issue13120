@@ -1,0 +1,41 @@
+{
+	"angularCompilerOptions": {
+		"genDir": "build",
+		"skipTemplateCodegen": true,
+		"strictMetadataEmit": true
+	},
+	"exclude": [
+		"build",
+		"node_modules"
+	],
+	"include": [
+		"module/*.ts"
+	],
+	"compilerOptions": {
+		"outDir": "build",
+		"target": "es5",
+		"module": "es2015",
+		"moduleResolution": "node",
+		"lib": [
+			"es6",
+			"dom"
+		],
+		"declaration": true,
+		"removeComments": true,
+		"stripInternal": true,
+		"experimentalDecorators": true,
+		"sourceMap": true,
+		"inlineSources": true,
+		"noEmitOnError": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noImplicitUseStrict": true,
+		"baseUrl": ".",
+		"paths": {
+			"lib-ng/*": [
+				"*"
+			]
+		}
+	}
+}
